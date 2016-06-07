@@ -1,6 +1,6 @@
 ## Here is how I originally used the code:
 
-### From text to PDF
+### From PDF to text
 
 With all candidate pdf resumes in a dir I run 
 
@@ -18,7 +18,7 @@ Now I have the two files `candidate.jsonl` and `target.jsonl` which contain all 
 
 ### Analysis
 
-First I load the info from `candidate.jsonl` into two lists:
+First I load the info from `candidate.jsonl` and `target.jsonl` into two lists:
 
 ``` python
 import json
