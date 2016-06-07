@@ -22,7 +22,7 @@ First I load the info from `candidate.jsonl` and `target.jsonl` into two lists:
 
 ``` python
 import json
-with open('candidate.jsonl') as cf, open('target.jsonl') as tf:
+with open('candidate.jsonl', 'r') as cf, open('target.jsonl', 'r') as tf:
   candidate = [json.loads(line) for line in cf]
   target = [json.loads(line) for line in tf]
 ```
