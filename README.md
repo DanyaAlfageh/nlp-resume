@@ -1,4 +1,4 @@
-# Document Relevance based on SGD Classifier and Cosine Similarity
+## Document Relevance based on SGD Classifier and Cosine Similarity
 
 This analysis entails determining how similar documents are to a target set of documents. The original problem involved narrowing down a large set of 'technical' resumes consisting of candidates from various fields such as IT, Business Analyst / Data Scientist, and Software Engineering to a subset of resumes most relevant for an Analyst position.
 
@@ -21,9 +21,9 @@ The resumes originate in pdf form (already having ocr). Conversion to raw text i
 - Instructions for installation on OSX can be found [here](http://macappstore.org/pdftotext/).
 - Download information for Windows can be found [here](http://www.foolabs.com/xpdf/download.html)
 
-### Example Analysis
+### Scratch Work
 
-An example analysis using the newsgroup data set is shown in this [notebook](https://github.com/blakeboswell/nlp-resume/blob/master/newsgroup_test.ipynb)
+All the scratch work for testing the approach is shown in this [notebook](https://github.com/blakeboswell/nlp-resume/blob/master/newsgroup_test.ipynb).  The newsgroup data is used as a substitute for resumes.
 
 
 ## Relating back to Resume Analysis
