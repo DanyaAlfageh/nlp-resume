@@ -68,5 +68,5 @@ So now I have `target` which is a list conaining one dictionary with all the tar
 
 ``` python
 import main
-d = main.similarity(target, candidate)
+d = main.cossim(target, candidate)
 ```
